@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -6,17 +7,10 @@
 </head>
 
 <body class="bodyModif">
-  <script>
-    const boton = document.getElementById("btn");
-
-    $("btn").click(function () {
-      $('btn').blur();
-    });
-  </script>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-  <button class="btn centered" id="btn" href="#">
+  <button class="btn centered" (click)="playAudio()" id="btn" href="#">
     Toma Tio
   </button>
+  <button id="mock"></button>
 </body>
 
 </html>
