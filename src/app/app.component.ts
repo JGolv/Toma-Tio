@@ -13,7 +13,6 @@ export class AppComponent {
     const audioNumber = Math.floor((Math.random() * 9) + 1);
     let folder = '../assets/TomaTios/test-' + audioNumber + '.wav';
     audio.src = folder;
-    console.log(audioNumber);
     audio.load();
     let button = document.getElementById('btn');
     button.setAttribute("disabled", "disabled");
